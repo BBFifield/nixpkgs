@@ -21,7 +21,7 @@ buildGoModule rec {
     hash = "sha256-UJxLVnKfMLPkzec3XwNHcHE1x5kPFMoyqed0VNgFJ4w=";
   };
 
-  vendorHash = "sha256-xLhpHrggOGq5VLjQO7OvH/Ei5YivJJhTsy2ek2AudRs=";
+  vendorHash = "sha256-nc/WKBhUxhs1aNUg/GM7vhrKd7FrUdl2uKp7MX2VCdE=";
   subPackages = [ "cmd/walker.go" ];
 
   passthru.updateScript = nix-update-script { };
