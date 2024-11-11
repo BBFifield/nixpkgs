@@ -18,7 +18,7 @@ buildGoModule rec {
     owner = "abenz1267";
     repo = "walker";
     rev = "v${version}";
-    hash = "sha256-elnF3WG8sga3QLpUAPjyrYSL1pYqiFfDoLFEjbWDQ/A=";
+    hash = "sha256-ivsOyI8RDdUxdlfoiRW+ZElxvQjNezw/Hi2ugvQOMNE=";
   };
 
   vendorHash = "sha256-nc/WKBhUxhs1aNUg/GM7vhrKd7FrUdl2uKp7MX2VCdE=";
