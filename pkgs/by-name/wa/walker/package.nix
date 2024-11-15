@@ -12,13 +12,13 @@
 
 buildGoModule rec {
   pname = "walker";
-  version = "0.8.7";
+  version = "0.8.10";
 
   src = fetchFromGitHub {
     owner = "abenz1267";
     repo = "walker";
     rev = "v${version}";
-    hash = "sha256-ivsOyI8RDdUxdlfoiRW+ZElxvQjNezw/Hi2ugvQOMNE=";
+    hash = "sha256-HwrZqqmtD65NhNAUtPLml0h9GrbEOiXMzx9HV/5irgE=";
   };
 
   vendorHash = "sha256-nc/WKBhUxhs1aNUg/GM7vhrKd7FrUdl2uKp7MX2VCdE=";
